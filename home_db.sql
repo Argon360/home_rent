@@ -38,7 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `password`) VALUES
-(1, 'krishna', '1');
+(1, 'dhiraj', 'root');
 
 -- --------------------------------------------------------
 
@@ -59,7 +59,7 @@ CREATE TABLE `messages` (
 --
 
 INSERT INTO `messages` (`id`, `name`, `email`, `number`, `message`) VALUES
-(1, 'PANKAJ SHARMA', 'pankajsharma5087@gmail.com', '234', 'Radhe Radhe');
+(1, 'user1', 'user1@gmail.com', '8652', 'hello');
 
 -- --------------------------------------------------------
 
@@ -174,7 +174,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `number`, `email`, `password`) VALUES
-(1, 'Pankaj', '12', 'u@gmail.com', '1');
+(1, 'Aadarsh', '12', 'u@gmail.com', '1');
 
 --
 -- Indexes for dumped tables

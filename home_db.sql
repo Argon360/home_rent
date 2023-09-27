@@ -112,10 +112,6 @@ CREATE TABLE `property` (
 -- Dumping data for table `property`
 --
 
-INSERT INTO `property` (`id`, `user_id`, `property_name`, `address`, `price`, `type`, `offer`, `status`, `furnished`, `bhk`, `deposite`, `bedroom`, `bathroom`, `balcony`, `carpet`, `age`, `total_floors`, `room_floor`, `loan`, `lift`, `security_guard`, `play_ground`, `garden`, `water_supply`, `power_backup`, `parking_area`, `gym`, `shopping_mall`, `hospital`, `school`, `market_area`, `image_01`, `image_02`, `image_03`, `image_04`, `image_05`, `description`, `date`) VALUES
-(3, '1', 'zxdg', '12', '12', 'flat', 'sale', 'ready to move', 'furnished', '1', '12', '1', '1', '0', '12', '12', '12', '12', 'available', 'no', 'no', 'yes', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'no', 'DYBLxyEpWj4q29fLmGAg.png', 'bLdSsQYNsoemJfIt2nd2.jpg', 'C54062DP0jjZ3R1Pv26z.jpg', 'ltsBapcirfxgUE2h07Px.jpg', 'o3jdbvviYDJ1nHZ0pcDS.jpg', '12', '2023-08-29');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `requests`
@@ -174,7 +170,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `number`, `email`, `password`) VALUES
-(1, 'Aadarsh', '12', 'u@gmail.com', '1');
+(1, 'Nikhil', '12', 'nikhil@gmail.com', '1');
 
 --
 -- Indexes for dumped tables
